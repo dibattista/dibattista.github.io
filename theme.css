@@ -12,9 +12,16 @@ body{
 	padding: 20px 100px 10px 0px;
 }
 
-.aligne-left{
-	
+.margin-left{
+	  margin-left: 850px;
+	  color:#EE3257;
+	  
 }
+
+.inline-block{
+	display: inline-block;
+}
+
 
 #between{
 	margin:0 auto;
@@ -66,8 +73,4 @@ list-style-type: none;
 }
 .color-pink{
 	color: #EE3257;
-}
-.float-right{
-	float: right;
-	padding-right: 100px;
 }
