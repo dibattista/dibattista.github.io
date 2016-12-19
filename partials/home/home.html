@@ -1,0 +1,57 @@
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="{{storeHome.products.image[0]}}"></div>
+  </div>
+
+  <div class="section white">
+    <div class="row container height-parallax" id="1" ng-class="{'in active' : tab === 1}">
+      <h2 class="header">Web developper Barbara Di Battista</h2>
+      <p class="grey-text text-darken-3 lighten-3">{{storeHome.products.description}}</p>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="{{storeHome.products.image[1]}}"></div>
+  </div>
+<!-------------------------------------------------------------------------->
+  <div class="section white">
+    <h1>Projects</h1>
+    <div class="row container">
+      <div class="col s6 m3 card-image">
+        <img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="partials/img/parallax3.jpg">
+      </div>
+      <div class="col s6 m3 card-image">
+        <p>Look4me<p>
+      </div>
+      <div class="col s6 m3 card-image">
+        <img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="partials/img/parallax3.jpg">
+      </div>
+      <div class="col s6 m3 card-image">
+       <p>hackaton1<p>
+     </div>
+  </div>
+     <div class="row container">
+       <div class="col s6 m3 card-image">
+           <img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="partials/img/parallax3.jpg">
+       </div>
+       <div class="col s6 m3 card-image">
+          <p>hackaton2<p>
+      </div>
+      <div class="col s6 m3 card-image">
+          <img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="partials/img/parallax3.jpg">
+      </div>
+      <div class="col s6 m3 card-image">
+         <p>react project<p>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+      <div class="parallax"><img src="{{storeHome.products.image[2]}}"></div>
+  </div>
+
+  <script>
+   $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+  </script>

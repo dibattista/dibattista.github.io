@@ -1,90 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<html lang="en" ng-app="socialZoo">
+<head>
+	<meta charset="UTF-8">
 
-    <title>Barbara web-page</title>
-    <link href='https://fonts.googleapis.com/css?family=Lobster|Dancing+Script|Courgette|Playball|Great+Vibes|Niconne|Marck+Script' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-
-    <link href="theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="partials/css/index.css">
+	<title>Document</title>
+</head>
+<body>
 
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="banner">
-          <div class="col-xs-6 col-md-6"> 
-            <div class="left">
-                <img src="images/logobdib.png">
-            </div>  
-          </div>
-          <div class="col-xs-6 col-md-6"> 
-              <div class="right">
-                <a href="mailto:barbaradibattista@yahoo.fr" target="_top" class="margin-left"><i class="fa fa-envelope fa-4x"></i></a>
-              </div>
-          </div> 
-        </div>
-      </div> 
-      <div class="row">
-        <div id="between">
-          <div class="">  
-            <div id="left">
-              <img src="images/babs.jpg" alt="" height="300px" width="300px" class="img-circle">
-            </div>
-          </div>
-          <div class="">  
-            <div id="right">
-              <h1>Barbara Di Battista</h1>
-                <h3>Welcome to my site</h3>
-                <p> Like Albert Enstein said : "Life is like riding a bicycle. To keep your balance you must keep moving”. I’m following this quote and my next step is to become web developer. I really love coding to create, to solve problems, to share and recreate. I came from customer service where I used to help and learnt what need the user. Now, I would like to develop it.<p>
-            </div>
-          </div>
-          <div class="">
-            <div class="clear">
-            </div>
-          </div>  
-        </div>
-      </div>
-      <div class="row">
-        <div id="footer">
-          <div class="col-xs-12 col-sm-3 col-md-4">
-            <div class="padding-left">
-              <a href="https://www.codecademy.com/31barbara" target="_blank" class="padding-code"><i class="fa fa-code fa-4x fa-inverse"></i></a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-4">
-            <div class="padding-left">
-            <a href="https://github.com/dibattista" target="_blank" class="padding-github"><i class="fa fa-github fa-4x fa-inverse"></i></a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-4">
-            <div class="padding-left">
-             <a href="https://ie.linkedin.com/in/barbara-di-battista-710521b3" target="_blank" class="padding-in"><i class="fa fa-linkedin-square fa-4x fa-inverse"></i></a>
-            
-            </div>
-          </div> 
-        </div>
-      </div>
-    </div>
+   <header header></header>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+   <main ng-view></main>
+
+   <footer footer class="page-footer"></footer>
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/oclazyload/1.0.9/ocLazyLoad.min.js"></script>
+
+
+   <script src="js/app.js"></script>
+
+</body>
 </html>
