@@ -1,10 +1,26 @@
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo"><img src="partials/img/logobdib.png"/></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a data-toggle="tab" target="_self" ng-click="goToHash(1)" >About</a></li>
-        <li><a data-toggle="tab" target="_self" ng-click="goToHash(2)">project</a></li>
-        <li><a href="#contact" target="_self">contact</a></li>
-      </ul>
-    </div>
-  </nav>
+
+
+<nav  ng-controller="HomeController">
+  <div class="nav-wrapper brown darken-3">
+    <a href="#/" class="brand-logo"><img src="partials/img/logobdib.png" alt="Logo" class="logo"/></a>
+    <a href="#/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+
+      <!-- Dropdown Trigger -->
+      <li><a  ng-click="gotoAnchor(2)">Project</a></li>
+      <li><a  ng-click="gotoAnchor(1)">About</a></li>
+      <li><a  ng-click="gotoAnchor(3)">Contact</a></li>
+    </ul>
+
+    <ul class="side-nav brown darken-3 mobile" id="mobile-demo">
+      <li><a ng-click="gotoAnchor(2)" class="white-text">Project</a></li>
+      <li><a ng-click="gotoAnchor(2)" class="white-text">About</a></li>
+      <li><a ng-click="gotoAnchor(2)" class="white-text">Contact</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<script type="text/javascript">
+  $(".dropdown-button").dropdown();
+</script>

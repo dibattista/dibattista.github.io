@@ -1,57 +1,129 @@
-
+<div ng-controller="HomeController">
   <div class="parallax-container">
-    <div class="parallax"><img src="{{storeHome.products.image[0]}}"></div>
+    <div class="parallax anchor" id="anchor{{1}}"><img src="{{storeHome.products.image[0]}}"></div>
   </div>
 
   <div class="section white">
-    <div class="row container height-parallax" id="1" ng-class="{'in active' : tab === 1}">
-      <h2 class="header">Web developper Barbara Di Battista</h2>
+    <div class="row container height-parallax">
+      <h2 class="header">Barbara Di Battista</h2>
+      <h5 class="grey-text text-darken-3 lighten-3">I'm a creative Js webdeveloper</h5>
       <p class="grey-text text-darken-3 lighten-3">{{storeHome.products.description}}</p>
     </div>
   </div>
 
-  <div class="parallax-container">
+  <div class="parallax-container" id="anchor{{2}}" >
     <div class="parallax"><img src="{{storeHome.products.image[1]}}"></div>
   </div>
-<!-------------------------------------------------------------------------->
-  <div class="section white">
-    <h1>Projects</h1>
-    <div class="row container">
-      <div class="col s6 m3 card-image">
-        <img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="partials/img/parallax3.jpg">
-      </div>
-      <div class="col s6 m3 card-image">
-        <p>Look4me<p>
-      </div>
-      <div class="col s6 m3 card-image">
-        <img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="partials/img/parallax3.jpg">
-      </div>
-      <div class="col s6 m3 card-image">
-       <p>hackaton1<p>
+<!---------------------------------------------------------------------------------------------------------------------------------->
+  <div class="anchor project" >
+     <div class="row">
+         <!-- <div class="col s1 m1 l1"></div> -->
+         <div class="col s5 m5 l5">
+           <h2 class="project">Projects</h2>
+        </div>
      </div>
-  </div>
-     <div class="row container">
-       <div class="col s6 m3 card-image">
-           <img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="partials/img/parallax3.jpg">
-       </div>
-       <div class="col s6 m3 card-image">
-          <p>hackaton2<p>
+     <div class="row container project-container">
+              <div class="col s1 m1 l1"></div>
+              <div class=" col s12 m5 l5 card medium center">
+                    <div class="card-image waves-effect waves-block waves-light materialboxed">
+                      <a href="http://www.look4me.fr/#/"><img src="partials/img/project1.png"></a>
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-3 lighten-3"><a href="http://www.look4me.fr/#/" class=" grey-text text-darken-3 lighten-3">Look4me</a>
+                        <a class="btn-floating btn-large waves-effect waves-light right brown darken-3"><i class="material-icons right">add</i></a>
+                      </span>
+                      <p class=" grey-text text-darken-3 lighten-3"> site vitrine créer pour promouvoir l'activité relooking proposer </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title activator grey-text text-darken-3 lighten-3">Look4me<i class="material-icons right">close</i></span>
+                      <p class="grey-text text-darken-3 lighten-3">Language utilisé: Angular, boostrap</p>
+                      <img width="160" src="partials/img/icon/bootstrap.png">
+                      <img width="160" src="partials/img/icon/angular.png">
+
+                    </div>
+              </div>
+
+              <div class=" col s1 m1 l1"></div>
+
+              <div class=" col s12 m5 l5 card medium center">
+                  <div class="card-image waves-effect waves-block waves-light materialboxed">
+                    <a href="https://github.com/dibattista/hackathon1"><img class="activator" src="partials/img/hackathon1.png"></a>
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-3 lighten-3"><a href="https://github.com/dibattista/hackathon1" class=" grey-text text-darken-3 lighten-3">Hackathon 1</a>
+                      <a class="btn-floating btn-large waves-effect waves-light right brown darken-3"><i class="material-icons right">add</i></a>
+                    </span>
+                    <p class=" grey-text text-darken-3 lighten-3">Objectif : création d'un jeu</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-3 lighten-3">hackathon1<i class="material-icons right">close</i></span>
+                    <br/>
+                    <p class=" grey-text text-darken-3 lighten-3">Language utilisé: Boostrap</p>
+                    <img width="160" src="partials/img/icon/bootstrap.png">
+
+                  </div>
+              </div>
+
+              <div class="col s12 m1 l1">
+              </div>
+
+
+              <div class=" col s12 m5 l5 card medium center">
+                  <div class="card-image waves-effect waves-block waves-light materialboxed">
+                    <a href="https://github.com/Lisa-Stina/socialZoo"><img class="activator" src="partials/img/hackathon2.png"></a>
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-3 lighten-3"><a href="https://github.com/Lisa-Stina/socialZoo" class=" grey-text text-darken-3 lighten-3">hackathon2</a>
+                      <a class="btn-floating btn-large waves-effect waves-light right brown darken-3"><i class="material-icons right">add</i></a>
+                    </span>
+                    <p class=" grey-text text-darken-3 lighten-3"> Objectif : Mettre en relation les zoo du monde entier</p>
+
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-3 lighten-3">hackathon2<i class="material-icons right">close</i></span>
+                    <p class=" grey-text text-darken-3 lighten-3">Taches à faire: Possibilité d'inscrire son zoo et de faire de commentaire sur le zoo </p>
+                    <p class=" grey-text text-darken-3 lighten-3"> Language utiliser : Materialize, Mongodb, Express, Angular,Nodejs.</p>
+                    <img width="200" src="partials/img/icon/meanstack.jpg">
+                    <img width="100" src="partials/img/icon/materialize.png">
+                  </div>
+              </div>
+
+              <div class=" col s1 m1 l1"></div>
+
+              <div class=" col s12 m5 l5 card medium center">
+                  <div class="card-image waves-effect waves-block waves-light materialboxed">
+                    <a href="#"><img class="materialboxed" src="partials/img/parallax3.jpg"></a>
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-3 lighten-3"><a href="#" class=" grey-text text-darken-3 lighten-3">React Project</a>
+                      <a class="btn-floating btn-large right brown darken-3"><i class="material-icons right">add</i></a>
+                    </span>
+                    <p class=" grey-text text-darken-3 lighten-3">Project client: Faire un jeu pour les appareils mobile sous forme de quiz-up pour facilité l'apprentissage</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-3 lighten-3">React Project<i class="material-icons right">close</i></span>
+                    <p class=" grey-text text-darken-3 lighten-3">Language utilisé: React-native, NativeBase, Mongodb, express, mongoose, nodejs</p>
+                    <img width="200" src="partials/img/icon/meanstack.jpg">
+                    <br/>
+                    <img width="100" src="partials/img/icon/react.png">
+                  </div>
+              </div>
+        </div>
       </div>
-      <div class="col s6 m3 card-image">
-          <img class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="partials/img/parallax3.jpg">
-      </div>
-      <div class="col s6 m3 card-image">
-         <p>react project<p>
-      </div>
-    </div>
-  </div>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- -------------------------------------------------------------------------------------------------------------------------------->
 
   <div class="parallax-container">
       <div class="parallax"><img src="{{storeHome.products.image[2]}}"></div>
   </div>
 
+</div>
+
   <script>
    $(document).ready(function(){
       $('.parallax').parallax();
+      $('.materialboxed').materialbox();
     });
   </script>

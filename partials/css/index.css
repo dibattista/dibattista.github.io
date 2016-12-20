@@ -1,20 +1,54 @@
-
+body{
+  font-family: 'Merriweather', serif;
+}
 
   .page-footer{
     flex: 1 0 auto;
   }
 
-body > header > nav{
+/*body > header > nav{
   height: 100px !important;
-  background-color: #C2BAB0 !important;
-}
+  background-color:white!important;
+}*/
 
-body > header > nav > div > ul > li{
+/*body > header > nav > div > ul > li{
   height: 100px !important;
-  background-color: #C2BAB0 !important;
-  width: 100px !important;
-}
+  background-color: #BE7D79 !important;
+  /*width: 200px !important;
+}*/
+
+
+
 
 body > footer {
   background-color: white !important;
+  margin: 0px !important;
 }
+
+.footer-container-margin{
+  margin-left: 0px;
+}
+
+.margin-top-a-footer{
+  margin-top: 45px;
+}
+
+h2{
+  color:#4E342E !important;
+}
+
+.project{
+  background-color: #4E342E !important;
+  color: white !important;
+  margin-top: 10px;
+
+}
+
+.project-container{
+  margin-bottom: 10px;
+}
+
+.color-pink{
+  color: #4E342E !important;
+}
+/* ////////////////////////////////////////////////////////////////////////////  */
