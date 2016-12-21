@@ -1,6 +1,6 @@
-<div ng-controller="HomeController">
+<div ng-controller="HomeController as storeHome">
   <div class="parallax-container">
-    <div class="parallax anchor" id="anchor{{1}}"><img src="{{storeHome.products.image[0]}}"></div>
+    <div class="parallax anchor" id="anchor{{1}}"><img src="partials/img/1.png"></div>
   </div>
 
   <div class="section white">
@@ -12,7 +12,7 @@
   </div>
 
   <div class="parallax-container" id="anchor{{2}}" >
-    <div class="parallax"><img src="{{storeHome.products.image[1]}}"></div>
+    <div class="parallax"><img src="partials/img/3.jpg"></div>
   </div>
 <!---------------------------------------------------------------------------------------------------------------------------------->
   <div class="anchor project" >
@@ -116,7 +116,7 @@
   <!-- -------------------------------------------------------------------------------------------------------------------------------->
 
   <div class="parallax-container">
-      <div class="parallax"><img src="{{storeHome.products.image[2]}}"></div>
+      <div class="parallax"><img src="partials/img/2.gif"></div>
   </div>
 
 </div>
@@ -126,4 +126,5 @@
       $('.parallax').parallax();
       $('.materialboxed').materialbox();
     });
+
   </script>

@@ -6,27 +6,13 @@ body{
     flex: 1 0 auto;
   }
 
-/*body > header > nav{
-  height: 100px !important;
-  background-color:white!important;
-}*/
-
-/*body > header > nav > div > ul > li{
-  height: 100px !important;
-  background-color: #BE7D79 !important;
-  /*width: 200px !important;
-}*/
-
-
-
-
 body > footer {
   background-color: white !important;
   margin: 0px !important;
 }
 
 .footer-container-margin{
-  margin-left: 0px;
+  margin: 0px !important;
 }
 
 .margin-top-a-footer{
