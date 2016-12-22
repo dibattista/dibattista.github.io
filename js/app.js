@@ -46,7 +46,7 @@ var parallaxData = {
 		"partials/img/3.jpg"
 
 	],
-	description : 'Welcome to my site .Like Albert Enstein said : Life is like riding a bicycle. To keep your balance you must keep moving. I\' m following this quote and my next step is to become web developer. I really love coding to create, to solve problems, to share and recreate. I came from customer service where I used to help and learnt what need the user. Now, I would like to develop it.'
+	description : 'Welcome ! Like Albert Enstein said : "Life is like riding a bicycle. To keep your balance you must keep moving." '
 
 }
 /*********************************************/
