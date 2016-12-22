@@ -2,9 +2,7 @@ body{
   font-family: 'Merriweather', serif;
 }
 
-  .page-footer{
-    flex: 1 0 auto;
-  }
+
 
 body > footer {
   background-color: white !important;
@@ -17,6 +15,10 @@ body > footer {
 
 .margin-top-a-footer{
   margin-top: 45px;
+}
+
+.margin-footer-h2{
+  margin-left: 10px !important;
 }
 
 h2{
