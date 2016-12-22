@@ -2,16 +2,10 @@ body{
   font-family: 'Merriweather', serif;
 }
 
-
-
 body > footer {
   background-color: white !important;
-  margin: 0px !important;
 }
 
-.footer-container-margin{
-  margin: 0px !important;
-}
 
 .margin-top-a-footer{
   margin-top: 45px;
